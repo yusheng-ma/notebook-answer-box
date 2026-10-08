@@ -2,10 +2,7 @@
 
 讓作業 notebook 的作答處一眼可見：**未答的地方是黃底，答案是藍字**，像用藍筆寫考卷。
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yusheng-ma/notebook-answer-box/blob/main/examples/demo_answerbox.ipynb)
-
-> **建議用 VS Code 或 Jupyter 開。** Colab 和 GitHub 預覽會拿掉 inline style：黃底提示仍然看得到，但答案不會變藍、段落沒有左框。
-> 上面的 Colab 連結開的是範例 [`examples/demo_answerbox.ipynb`](examples/demo_answerbox.ipynb)，可以看黃底在 Colab 的樣子。
+> **建議用 VS Code 開。** Colab 和 GitHub 預覽會拿掉 inline style：黃底提示仍然看得到，但答案不會變藍、段落沒有左框。
 
 ![VS Code 顯示效果：左為原始 template，右為套用後（部分已作答）](docs/screenshot.png)
 
