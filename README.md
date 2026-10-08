@@ -4,7 +4,8 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yusheng-ma/notebook-answer-box/blob/main/examples/demo_answerbox.ipynb)
 
-> GitHub 的 notebook 預覽會拿掉 inline style，看不到藍字；請用上面的 Colab 連結，或下載後用 VS Code／Jupyter 開 [`examples/demo_answerbox.ipynb`](examples/demo_answerbox.ipynb)。
+> **建議用 VS Code 或 Jupyter 開。** Colab 和 GitHub 預覽會拿掉 inline style：黃底提示仍然看得到，但答案不會變藍、段落沒有左框。
+> 上面的 Colab 連結開的是範例 [`examples/demo_answerbox.ipynb`](examples/demo_answerbox.ipynb)，可以看黃底在 Colab 的樣子。
 
 ![VS Code 顯示效果：左為原始 template，右為套用後（部分已作答）](docs/screenshot.png)
 
@@ -50,4 +51,4 @@ python3 answer_box.py strip HW.ipynb [OUT]   # 移除所有樣式，輸出 HW_pl
 
 ## 給出作業的人
 
-在 template 上跑一次 `apply` 再發給學生，學生打開就知道哪裡要作答，批改時答案和題目也分得開。若想發乾淨版本，`strip` 可以還原。
+在 template 上跑一次 `apply` 再發給學生（在 Colab 裡用 `!python3 answer_box.py apply HW.ipynb` 也可以跑），學生打開就知道哪裡要作答，批改時答案和題目也分得開。若想發乾淨版本，`strip` 可以還原。
